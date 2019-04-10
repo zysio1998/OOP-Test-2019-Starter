@@ -2,7 +2,7 @@
 
 ## Rules
 
-- You can access the [Java reference](https://docs.oracle.com/javase/7/docs/api/) and the [Processing reference](https://processing.org/reference/) if you need to look something up
+- You can access the [Java reference](https://docs.oracle.com/javase/7/docs/api/) and the [Processing reference](https://processing.org/reference/) or the [git reference](https://git-scm.com/docs) if you need to look something up
 - No use of notes or previously written code
 - No collaboration or communication
 - You can use your own computers and Visual Studio code or if on the lab computers you can use the shell scripts ./compile.sh and ./run.sh to compile and run your programs
