@@ -29,6 +29,7 @@ public class UI extends PApplet
 
 	public void setup() 
 	{
+		s
 	}
 	
 	public void draw()
