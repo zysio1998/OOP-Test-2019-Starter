@@ -77,4 +77,6 @@ In the above code, if value was 381, then hundreds would be 3, tens would be 8 a
 | Drawing the resistors | 40 marks |
 | Use of git | 10 marks |
 
+To get full marks for use of git you should make at least 5 commented commits on your repo at regular intervals or whenever you get something working.
+
 Submit the URL to your git repository through [this link](https://docs.google.com/forms/d/e/1FAIpQLSc_5Xaakpf-ZKVQbPQ4e-bylAuziq1m3Wi6Hmf4p9EBAvV1sw/viewform)
