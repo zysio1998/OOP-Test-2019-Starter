@@ -18,7 +18,7 @@ public class Resistor extends PApplet
 
     public Resistor(TableRow row) 
     {
-        //value = row.getInt();
+        //value = row.getInt();  // not sure how to read the values in when there is no header 
 	} 
 
 	public void separate(int value)

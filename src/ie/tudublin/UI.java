@@ -8,10 +8,12 @@ import processing.data.TableRow;
 
 public class UI extends PApplet
 {	
-	
 	Resistor resistorclass;
 	private ArrayList<Colour> colours = new ArrayList<Colour>();
 	private ArrayList<Resistor> resistors = new ArrayList<Resistor>();
+
+	private int x = 200;
+	private int y = 50;
 	
 	public void separate(int value)
 	{
@@ -59,7 +61,6 @@ public class UI extends PApplet
 		{
 			System.out.println(colour);
 		}
-
 	}
 
 	public void loadResistors()
@@ -86,13 +87,27 @@ public class UI extends PApplet
 	// {
 	// 	return colour + value;
 	// }
+	
+	
 
 	public void draw()
 	{		
 		//resistorclass.render();
 		
+		// for(int i = 0; i<4; i++)
+		// {
+		// 	stroke(0);
+		// 	line(x,y,x +100,y); //top line
+		// 	line(x,y +100,x +100,y+100); // bottom line
+		// 	line(x,y,x,y+100);  // left side
+		// 	line(x +100,y,x +100,y+100);  //right side
+		// 	line(x -50,y+50,x,y+50); // left cable
+		// 	line(x+100,y+50,x +150,y+50); // right cable
+
+		// 	x = x +150;
+		// 	y = y +150;
+		// }
 		
-		stroke(0);
 		//1st resistor
 		line(200,50,300,50); //top line
 		line(200,150,300,150); // bottom line
@@ -124,10 +139,6 @@ public class UI extends PApplet
 		line(300,500,300,600);  //right side
 		line(150,550,200,550); // left cable
 		line(300,550,350,550); // right cable
-
-
-
-
 
 	}
 }
