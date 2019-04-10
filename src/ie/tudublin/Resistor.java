@@ -9,7 +9,12 @@ public class Resistor extends PApplet
     public int ones;
     public int tens;
     public int hundreds;
+    PApplet ui;
 
+    public Resistor(PApplet ui)
+    {
+
+    }
 
     public Resistor(TableRow row) 
     {
@@ -32,7 +37,7 @@ public class Resistor extends PApplet
 
     public void render()
     {
-        ellipse(50,50,100,100);
+       ui.ellipse(50,50,100,100);
     }
 
 

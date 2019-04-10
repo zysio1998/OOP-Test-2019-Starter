@@ -8,8 +8,8 @@ import processing.data.TableRow;
 
 public class UI extends PApplet
 {	
-
-	Resistor resistor;
+	
+	Resistor resistorclass;
 	private ArrayList<Colour> colours = new ArrayList<Colour>();
 	private ArrayList<Resistor> resistors = new ArrayList<Resistor>();
 	
@@ -38,6 +38,8 @@ public class UI extends PApplet
 		printColours();
 		loadResistors();
 		printResistors();
+
+		resistorclass = new Resistor(this);
 	}	
 
 	public void loadColours()
@@ -87,6 +89,10 @@ public class UI extends PApplet
 
 	public void draw()
 	{		
-		resistor.render();
+
+		background(0);
+		//resistorclass.render();
+
+		
 	}
 }
