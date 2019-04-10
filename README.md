@@ -7,11 +7,11 @@
 - No collaboration or communication
 
 ## Description
-Resistors are electrical components that resist the flow of current through a circuit. The amount of resistance is measured in ohms. The resistance of a resistor can be evaluated by reading the colour bars on a resistor. Here is a picture of one:
+Resistors are electrical components that resist the flow of current through a circuit. The amount of resistance is measured in ohms. The resistance of a resistor can be evaluated by reading the colour bars. Here is a picture of one:
 
 ![](images/1.jpg)
 
-For the lab test today you will be making a program to draw resistors with different resistances. This is what your finished sketch will look like:
+For the lab test today you will be making a program to visualise resistors with different resistances. This is what your finished sketch will look like:
 
 ![](images/2.png)
 
@@ -38,11 +38,11 @@ The second file is called resistors.csv and this file contains the resistors you
 
 ## Instructions
 
-- Fork [this repository](https://github.com/skooter500/OOP-Test-2019-Starter) to get the starter project. Clone the forked repo and check the upstream and origin remotes are set correctly
+- Fork [this repository](https://github.com/skooter500/OOP-Test-2019-Starter) to get the starter project. Clone the forked repo to your computer and check the upstream and origin remotes are set correctly
 - Make a class called Colour that encapsulates the columns from a single row from the colours.csv file. Make the r,g,b and value fields public and the colour (String) field private. Make accessor methods for the colour field. Make a constructor that takes initial values and assigns them to the fields. Make an appropriate toString method.
 - In UI.java:
     - Declare an ArrayList called colours that can hold instances of the Colour class
-    - Write a method called loadColours that populates the ArrayList from the data in colours.csv file. You can use the processing loadTable method to do this. To get full marks for this, you should write an appropriate overloaded constructor on the Colour object.
+    - Write a method called loadColours that populates the ArrayList from the rows in colours.csv. You can use the Processing loadTable method to do this. To get full marks for this, you should write an appropriate overloaded constructor on the Colour object.
     - Write a method called printColours that prints the contents of the colours ArrayList to the console
     - Write a method ```public Color findColor(int value)``` in the class UI.java that returns the colour object associated with the value parameter.
 - Make a class called Resistor that has the following public int fields:
@@ -50,7 +50,7 @@ The second file is called resistors.csv and this file contains the resistors you
     - ones
     - tens
     - hundreds
-- Make a constructor that takes the value as a parameter and assigns all fields. Here is some sample Java code that you can adapt that takes a value and calculates the ones, tens and hundreds. You will also find this code with some example usages in the file UI.java.
+- Make a constructor that takes value as a parameter and assigns all fields. Here is some sample Java code that you can adapt that takes a value and calculates the ones, tens and hundreds. You will also find this code with some example usages in the file UI.java.
 
 ```Java
 int hundreds = (value / 100);
@@ -63,7 +63,7 @@ println(ones);
 
 In the above code, if value was 381, then hundreds would be 3, tens would be 8 and ones would be 1
 
-- In UI.java, make an ArrayList called resistors to hold instances of the Resistor class. Populate this ArrayList from the resistors.csv file
+- In UI.java, make an ArrayList called resistors to hold instances of the Resistor class. Populate this ArrayList from the rows in resistors.csv
 - Write code in the draw method that renders the resisters as per the screenshot above. To get full marks for this part, you should write an appropriate render method on the resistor class.
 
 ## Marking Scheme
