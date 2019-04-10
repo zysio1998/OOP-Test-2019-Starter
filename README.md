@@ -65,7 +65,7 @@ println(ones);
 In the above code, if value was 381, then hundreds would be 3, tens would be 8 and ones would be 1
 
 - In UI.java, make an ArrayList called resistors to hold instances of the Resistor class. Populate this ArrayList from the rows in resistors.csv
-- Write code in the draw method that renders the resisters as per the screenshot above. To get full marks for this part, you should write an appropriate render method on the resistor class.
+- Write code in the draw method of UI.java that renders the resistors as per the screenshot above. To get full marks for this part, you should write an appropriate render method on the resistor class.
 
 ## Marking Scheme
 
