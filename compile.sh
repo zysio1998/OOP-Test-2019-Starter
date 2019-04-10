@@ -1,1 +1,1 @@
-javac -classpath "/lib/core.jar" -d bin src/ie/tudublin/*.java
+javac -classpath "lib/core.jar" -d bin src/ie/tudublin/*.java

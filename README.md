@@ -5,6 +5,7 @@
 - You can access the [Java reference](https://docs.oracle.com/javase/7/docs/api/) and the [Processing reference](https://processing.org/reference/) if you need to look something up
 - No use of notes or previously written code
 - No collaboration or communication
+- You can use your own computers and Visual Studio code or if on the lab computers you can use the shell scripts ./compile.sh and ./run.sh to compile and run your programs
 
 ## Description
 Resistors are electrical components that resist the flow of current through a circuit. The amount of resistance is measured in ohms. The resistance of a resistor can be evaluated by reading the colour bars. Here is a picture of one:
