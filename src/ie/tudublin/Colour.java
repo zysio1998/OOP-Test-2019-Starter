@@ -93,7 +93,6 @@ public class Colour
     {
         return colour + "\t" + r + "\t" + g + "\t" + b + "\t" + value;
     }
-
     
 
 
