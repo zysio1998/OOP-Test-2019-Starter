@@ -89,10 +89,45 @@ public class UI extends PApplet
 
 	public void draw()
 	{		
-
-		background(0);
 		//resistorclass.render();
-
 		
+		
+		stroke(0);
+		//1st resistor
+		line(200,50,300,50); //top line
+		line(200,150,300,150); // bottom line
+		line(200,50,200,150);  // left side
+		line(300,50,300,150);  //right side
+		line(150,100,200,100); // left cable
+		line(300,100,350,100); // right cable
+
+		//2nd resistor
+		line(200,200,300,200); //top line
+		line(200,300,300,300); // bottom line
+		line(200,200,200,300);  // left side
+		line(300,200,300,300);  //right side
+		line(150,250,200,250); // left cable
+		line(300,250,350,250); // right cable
+
+		//3rd resistor
+		line(200,350,300,350); //top line
+		line(200,450,300,450); // bottom line
+		line(200,350,200,450);  // left side
+		line(300,350,300,450);  //right side
+		line(150,400,200,400); // left cable
+		line(300,400,350,400); // right cable
+
+		//4th resistor
+		line(200,500,300,500); //top line
+		line(200,600,300,600); // bottom line
+		line(200,500,200,600);  // left side
+		line(300,500,300,600);  //right side
+		line(150,550,200,550); // left cable
+		line(300,550,350,550); // right cable
+
+
+
+
+
 	}
 }
